@@ -29,10 +29,4 @@ This project demonstrates how to toggle the built-in LED on a Raspberry Pi Pico 
 4. Flash the program onto the Pico:
    - Connect the Pico to your machine via a serial cable.
    - Copy the generated `main_blink.uf2` file to the Pico's storage.
-
-## Usage
-- The built-in LED will blink at 1-second intervals.
-
-## Deliverables
-- Source code
-- Picture/video of the Pico working as expected
+   - The machine will restart itself and start blinking
