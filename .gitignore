@@ -1,0 +1,23 @@
+# Ignore build artifacts
+build/
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore SDK and example folders
+pico-sdk/
+pico-examples/
+
+# Ignore editor and OS files
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+.vscode/
