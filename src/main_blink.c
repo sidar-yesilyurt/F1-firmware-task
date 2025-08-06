@@ -14,7 +14,7 @@ int main() {
 
         // Turn the LED off
         gpio_put(LED_PIN, 0);
-        sleep_ms(1000); // Wait for 1 second/1000ms test change
+        sleep_ms(1000); // Wait for 1 second/1000ms
     }
 
 
