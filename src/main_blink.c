@@ -1,21 +1,24 @@
 #include "pico/stdlib.h"
 
-#define LED_PIN 25 // Define a constant for the LED pin
+// The pin for the built-in LED
+#define LED_PIN 25
 
 int main() {
-    // Initialize the LED pin
+    // Set up the LED pin
     gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT); // Set the pin for output
+    // Tell the device pin will be used as output
+    gpio_set_dir(LED_PIN, GPIO_OUT);
 
+    // Loops forever
     while (true) {
-        // Turn the LED on
+        // Turn LED on
         gpio_put(LED_PIN, 1);
-        sleep_ms(1000); // Wait for 1 second/1000ms
+        // Wait 1 second
+        sleep_ms(1000);
 
-        // Turn the LED off
+        // Turn LED off
         gpio_put(LED_PIN, 0);
-        sleep_ms(1000); // Wait for 1 second/1000ms
+        // Wait 1 second
+        sleep_ms(1000);
     }
-
-
 }
