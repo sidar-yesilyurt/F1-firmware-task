@@ -1,6 +1,6 @@
 # Raspberry Pi Pico main_blink Project
 
-This project demonstrates how to toggle the built-in LED on a Raspberry Pi Pico at regular intervals using the Raspberry Pi Pico SDK.
+This project demonstrates how to toggle the built-in LED RASPBERRY PI PICO RP2040 in a blinking method.
 
 ## Requirements
 - Raspberry Pi Pico
@@ -27,6 +27,6 @@ This project demonstrates how to toggle the built-in LED on a Raspberry Pi Pico 
    make
    ```
 4. Settings up the code onto the Raspberry:
-   - Connect the Pico to your machine via a usb cable.
+   - Connect the Pico to your machine via a serial cable.
    - Copy the generated `main_blink.uf2` file under build to the Pico's storage.
    - The machine will restart itself and start blinking
