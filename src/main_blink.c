@@ -1,4 +1,4 @@
-#include "pico/stdlib.h"
+#include "pico/stdlib.h" // Library for the functions below
 
 // The pin for the built-in LED
 #define LED_PIN 25
