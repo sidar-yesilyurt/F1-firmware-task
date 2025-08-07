@@ -10,12 +10,12 @@ This project demonstrates how to toggle the built-in LED on a Raspberry Pi Pico 
 - Serial cable
 
 ## Setup
-1. Clone the Raspberry Pi Pico SDK and examples repository:
+1. Clone the repo below to your machine:
    ```bash
    git clone https://github.com/raspberrypi/pico-sdk
    git clone https://github.com/raspberrypi/pico-examples
    ```
-2. Set up the SDK path:
+2. Set up the path:
    ```bash
    export PICO_SDK_PATH=/path/to/pico-sdk
    ```
@@ -26,7 +26,7 @@ This project demonstrates how to toggle the built-in LED on a Raspberry Pi Pico 
    cmake ..
    make
    ```
-4. Flash the program onto the Pico:
-   - Connect the Pico to your machine via a serial cable.
-   - Copy the generated `main_blink.uf2` file to the Pico's storage.
+4. Settings up the code onto the Raspberry:
+   - Connect the Pico to your machine via a usb cable.
+   - Copy the generated `main_blink.uf2` file under build to the Pico's storage.
    - The machine will restart itself and start blinking
