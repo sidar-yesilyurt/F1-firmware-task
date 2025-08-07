@@ -15,7 +15,3 @@ pico_add_extra_outputs(main_blink)
 
 # Link the Pico standard library to your program
 target_link_libraries(main_blink pico_stdlib)
-
-# Enable USB output for printf, disable UART output
-pico_enable_stdio_usb(main_blink 1)
-pico_enable_stdio_uart(main_blink 0)
