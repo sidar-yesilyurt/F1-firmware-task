@@ -7,11 +7,11 @@ set(CMAKE_C_STANDARD 11)                       # Use the C11 standard
 pico_sdk_init()
 
 add_executable(main_blink                      # Create an executable named 'main_blink'
-    src/main_blink.c                           #   and add this source file to it
+    src/main_blink.c                           
 )
 
 # Generate extra output files for flashing the Pico
 pico_add_extra_outputs(main_blink)
 
-# Link the Pico standard library to your program
+# Link the Pico standard library to the program
 target_link_libraries(main_blink pico_stdlib)
