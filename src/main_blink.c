@@ -6,19 +6,19 @@
 int main() {
     // Set up the LED pin
     gpio_init(LED_PIN);
-    // Tell the device pin will be used as output
+    // Tell the device pin we set up above it will be used as output
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
     // Loops forever
     while (true) {
         // Turn LED on
         gpio_put(LED_PIN, 1);
-        // Wait 1 second
+        // Wait 1 second/1000ms
         sleep_ms(1000);
 
         // Turn LED off
         gpio_put(LED_PIN, 0);
-        // Wait 1 second
+        // Wait 1 second/1000ms
         sleep_ms(1000);
     }
 }
