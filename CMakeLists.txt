@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.13)            # Require at least CMake version 3.13
-include("${PICO_SDK_PATH}/pico_sdk_init.cmake") # Include the Pico SDK setup file
 
 project(main_blink C CXX ASM)                  # Name the project and set language to C
 set(CMAKE_C_STANDARD 11)                       # Use the C11 standard
